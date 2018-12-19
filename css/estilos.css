@@ -6,3 +6,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.title{
+  float: left;
+  color: white;
+}
+
+.verticalLine{
+  border-right: 1px solid #73848c;
+  height: 22vh;
+  width: 2px;
+}
+
+hr{
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #73848c;
+}
