@@ -5,8 +5,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed
 }
 
+.fondo{
+  background-color: rgba(0,194,255,.5);
+  }
 
 .title{
   float: left;
@@ -14,13 +18,17 @@ body {
 }
 
 .verticalLine{
-  border-right: 1px solid #73848c;
+  border-right: 2px solid white;
   height: 22vh;
   width: 2px;
 }
 
 hr{
-  height: 2px;
   border: 0;
-  border-top: 1px solid #73848c;
+  border-top: 2px solid white;
+  width: 100%;
+}
+
+.callout{
+  background-color: rgba(255,214,225,.9);
 }
